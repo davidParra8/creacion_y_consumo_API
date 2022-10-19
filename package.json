@@ -1,0 +1,35 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "proyecto de api restFull usando express y conectado a la bd con motor mysql",
+  "main": "index.js",
+  "scripts": {
+    "production": "babel-node --preset=@babel?preset-env",
+    "dev": "nodemon --exec npm run production src/index.js"
+  },
+  "keywords": [
+    "API",
+    "RESTFUL",
+    "EXPRESSS",
+    "MYSQL",
+    "SERVICES",
+    "CONTROLLERS",
+    "COMMONDS",
+    "ROUTES"
+  ],
+  "author": "DAVID PARRA",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.3",
+    "@babel/node": "^7.19.1",
+    "@babel/preset-env": "^7.19.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "promise-mysql": "^5.2.0"
+  }
+}
